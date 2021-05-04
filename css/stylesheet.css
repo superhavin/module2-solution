@@ -1,0 +1,62 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+#row{
+	
+	padding: 10px;
+	width: 100%;
+
+}
+.col-4{
+	float: left;
+	width: 30%;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: gray;
+	border: 2px black solid
+}
+.col-4-third{
+	
+}
+span{
+	font-weight: bold;
+	border: 2px black solid;
+	border-right: 10px;
+	border-top: 10px;
+	float: right; 
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+div span{
+
+}
+/*Large*/
+@media (min-width: 992px){
+	.col-4{
+	width: 30%;
+	}
+}
+/*Med*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-4{
+		width: 25%;
+	}
+	.col-4-third{
+		width: 53.5%;
+	}
+}
+/*Small*/
+@media (max-width: 767px){
+	.col-4{
+		width: 100%;
+	}
+}
